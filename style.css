@@ -1,0 +1,84 @@
+* {
+  font-family: "Space Grotesk", sans-serif !important;
+  /* border: 2PX solid; */
+}
+
+:root {
+  --secondary-color: #B9FF66;
+  --primary-color: black;
+}
+
+.header {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.para-hero {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+/* images */
+.images {
+  color: black;
+}
+
+.services-heading {
+  background-color: var(--secondary-color);
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  padding: 6px 20px !important;
+}
+
+.mini-section {
+  margin-top: 146px;
+}
+
+/* accordian start  */
+
+
+.accordion-button::after {
+  background-image: url(./images/ICON-PLUS.png);
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(./images/minus-icon.png);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #B9FF66 !important;
+  outline: 0 !important;
+}
+
+.accordion-header {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px !important;
+
+}
+
+/* accordian end */
+
+.card {
+  border: none !important;
+}
+
+.email-input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.form-check-input {
+  width: 1.5em !important;
+  height: 1.5em !important;
+  margin: auto !important;
+  border: 1px solid black !important;
+}
+
+.email-input::-webkit-input-placeholder {
+  color: #999;
+}
+
+
+.form-control {
+  width: 70% !important;
+}
